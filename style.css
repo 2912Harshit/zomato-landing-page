@@ -1,0 +1,33 @@
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav1text {
+  color: pink;
+  font-size: 1.1rem;
+}
+.nav2text {
+  color: pink;
+  font-size: 1.5rem;
+}
+.nav1 {
+  margin-right: 32vw;
+}
+.nav2 {
+  background-color: black;
+  width: 50vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+a {
+  text-decoration: none;
+}
+.hero-sec {
+  background-image: url(bigfood.png);
+  height: 100px;
+  width: 100vw;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}

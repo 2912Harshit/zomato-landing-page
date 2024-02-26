@@ -220,6 +220,41 @@
   font-size: 0.89rem;
   text-transform: capitalize;
 }
+.popular-places {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+.inner-popular-places {
+  display: flex;
+  flex-direction: column;
+  width: 78%;
+}
+.inner-popular-places pre {
+  font-size: xx-large;
+  font-weight: 400;
+  color: rgb(57, 57, 62);
+  margin-bottom: 2rem;
+}
+.places {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.places-container {
+  border-radius: 13px;
+  width: 22rem;
+  height: 5rem;
+  /* background-color: #e17a7a; */
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  border: 0.8px solid #dfe1e1;
+  align-items: center;
+}
 
 /* MEDIA SECTION */
 @media only screen and (max-width: 765px) {
